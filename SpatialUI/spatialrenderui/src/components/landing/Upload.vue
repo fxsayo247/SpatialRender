@@ -102,7 +102,7 @@ export default {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   background-color: #f9f9f9;
-  top: 1rem;
+  margin-top: 8rem;
 }
 
 .upload-container.has-files {

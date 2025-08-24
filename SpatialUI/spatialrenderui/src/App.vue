@@ -1,11 +1,9 @@
 <template>
-  <main class="app-layout">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <LandingStrip/>
-    <Upload/>
-    <PromptInput/>
-  </main>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <LandingStrip/>
+  <Upload/>
+  <PromptInput/>
 </template>
 
 <script>
@@ -36,6 +34,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+body {
+  margin: 0;
+  background-color: #f0f2f5; /* Optional: A light background for the page */
 }
 
 .app-layout {

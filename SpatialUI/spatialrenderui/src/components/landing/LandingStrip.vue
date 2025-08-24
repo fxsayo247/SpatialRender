@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="strip">
         <h2>
             Welcome to Spatial Render
         </h2>
@@ -18,5 +18,10 @@ h2 {
     bottom: 1rem;
     background-color: black;
     color: aliceblue;
+
+}
+
+.strip {
+    margin: 0;
 }
 </style>
